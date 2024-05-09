@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="../assets/css/style.css" rel="stylesheet">
+  <script src="../sweetalert2/sweetalert2/dist/sweetalert2.all.min.js"></script>
+</head>
+<body>
+    <div class="container justify-content-center ">
+        <div class="col-md-7 offset-md-2">
+           <div class=" mt-5">
+            <div class="card">
+                <div class="card-body">
+                                    <h5 class="card-title">Add Task</h5>
+                  <form method="post" action="" class="row g-3">
+                   
+                    <div class="col-md-12">
+                      <div class="form-floating">
+                        <input type="text" name="username" class="form-control" id="floatingEmail" placeholder="Your Username" required  >
+                        <label for="floatingEmail">Username</label>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-floating">
+                        <input type="text" name="task" class="form-control" id="floatingPassword" placeholder="Task Name" required >
+                        <label for="floatingPassword">Task Name</label>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-floating">
+                        <input type="number" name="amount" class="form-control" id="floatingEmail" placeholder="Your Username" required  >
+                        <label for="floatingEmail">Amount</label>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-floating">
+                        <input type="number" name="quantity" class="form-control" id="floatingPassword" placeholder="Task Name" required >
+                        <label for="floatingPassword">Quantity</label>
+                      </div>
+                    </div>
+                   
+                    
+                    <div class="text-center">
+                      <button name="btn_task" class="btn btn-primary">Add</button>
+                      <a class="btn btn-secondary" href="../dashboard/">Back</a>
+                    </div>
+                  </form>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+
+
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
